@@ -100,7 +100,7 @@ class dense_net:
         loss, accuracy_score = self.model.evaluate_generator(self.test, steps=self.test.samples)
         self.model.save_weights(self.model_path + 'weights.h5')
         log_writer.log(LOG_FILE, 'loss: {}, Accuracy: {}'.format(loss, accuracy_score))
-        
+        LOG_FILE.close()
         
         
 if __name__ == '__main__':
