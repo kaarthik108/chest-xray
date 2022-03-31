@@ -1,0 +1,9 @@
+2022-03-31/22:45:45		Data Augmentation..
+2022-03-31/22:45:45		Train data samples: 5216
+2022-03-31/22:45:45		Validation data samples: 16
+2022-03-31/22:45:45		Test data samples: 624
+2022-03-31/22:45:45		Creating model..
+2022-03-31/22:45:47		Model created..
+2022-03-31/22:45:47		Training model..
+2022-03-31/23:07:48		Model saved..
+2022-03-31/23:08:07		loss: 0.7977666854858398, Accuracy: 0.8942307829856873
