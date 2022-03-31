@@ -22,7 +22,7 @@ class dense_net:
         self.test_path = DIR + 'test'
         self.val_path = DIR + 'val'
         self.model_path = os.path.join(os.getcwd(),'models/')
-        self.epochs = 1
+        self.epochs = 10
         self.lr_reduction = None
         self.checkpoint = None
         self.cw = None        
